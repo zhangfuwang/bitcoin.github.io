@@ -113,7 +113,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #
     float: left;
     width: 50%;
     text-align: center;
-
+    color: #999;
     font-size: 200%;
     padding-bottom: 3%;
 
@@ -122,10 +122,12 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #
     color: #999;
 }
 #head ul li.active{
-    color: #629ff1;
     border-bottom: 2px solid #629ff1;
 }
+#head ul li.active a{
+    color: #629ff1;
 
+}
 /*充值*/
 #recharge{
     background-color: #f4f4f4;
@@ -140,17 +142,17 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #
 }
 #recharge h2,#recharge h4,#recharge p{
     font-weight: normal;
-    padding: 10px 0 10px 10px;
+    padding: 10px 0 10px 20px;
     color: #999;
 }
 #recharge h2{
-    padding: 20px 0 20px 10px;
+    padding: 20px 0 20px 20px;
 }
 #recharge input{
     width: 100%;
     border-bottom: 1px solid #ddd;
     /*padding-left: 10px;*/
-    padding: 0px 0 10px 10px;
+    padding: 0px 0 10px 20px;
     /*padding:5px 0;*/
     font-size: 1rem;
 }
@@ -368,7 +370,7 @@ div.bg-rounded+p{
 .border-blue .bg-square{
     width: 60%;
     position: absolute;
-    top: -22px;
+    top: -1.6rem;
     left: 50%;
     transform: translate(-50%);
     padding: 10px 0;
